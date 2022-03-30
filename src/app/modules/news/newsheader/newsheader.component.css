@@ -1,0 +1,164 @@
+#white-box {
+    width: 1265px;
+    margin: 0 auto;
+    height: 42px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+}
+
+#bbc-logo {
+    padding: 7px 15px 8px 0px;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+#sign-in {
+    height: 43px;
+    padding: 7px 87px 5px 11px;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+#sign-in-text {
+    font-weight: 550;
+    font-size: 85%;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+
+.gray-boxing {
+    height: 43px;
+    float: left;
+    font-weight: 550;
+    font-size: 85%;
+    padding: 14px 21px 13px 19px;
+    border-right: 1px solid #cccccc;
+}
+
+.nul-gray-boxing {
+    float: left;
+    font-weight: 550;
+    font-size: 85%;
+    padding: 14px 21px 12px 19px;
+}
+
+#downarrowblack {
+    position: relative;
+    left: 40px;
+}
+
+#gray-line {
+    float: left;
+    padding: 14px 10px 28px 19px;
+    border-right: 1px solid #cccccc;
+}
+
+#search-box {
+    position: relative;
+    top: 10px;
+    left: 17px;
+}
+
+#search {
+    float: left;
+    background-color: #E4E4E4;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    width: 12%;
+    height: 25.5px;
+}
+
+#magnifypic {
+    height: 26px;
+}
+
+#line1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-top: 1px solid #cccccc;
+}
+
+#red-box {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 92px;
+    background-color: #BB1919;
+}
+
+#red-box-1 {
+    width: 1265px;
+    margin: 0 auto;
+    height: 52px;
+}
+
+h1 {
+    padding: 0;
+    padding-top: 7px;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+#red-box-2 {
+    width: 1265px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.redboxing2 a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 85%;
+    padding: 1px 13px 1px 13px;
+    border-right: 1px solid #BB454F;
+    position: relative;
+    top: 11px;
+}
+
+.redboxing2 a:hover {
+    border-bottom: 4px solid white;
+}
+
+.nul-redboxingstart a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 85%;
+    padding: 1px 13px 1px 0px;
+    border-right: 1px solid #BB454F;
+    position: relative;
+    top: 11px;
+}
+
+.nul-redboxingstart a:hover {
+    border-bottom: 4px solid white;
+}
+
+.nul-redboxingend a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 85%;
+    padding: 1px 13px 1px 13px;
+    position: relative;
+    top: 11px;
+}
+
+.nul-redboxingend a:hover {
+    border-bottom: 4px solid white;
+}
+
+#downarrowwhite {
+    position: relative;
+    top: -2px;
+}

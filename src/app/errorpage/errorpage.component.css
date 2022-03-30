@@ -1,0 +1,11 @@
+.error-content {
+    width: 100%;
+    height: 81vh;
+}
+
+.errorImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

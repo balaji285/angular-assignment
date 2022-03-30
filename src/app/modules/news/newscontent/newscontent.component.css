@@ -1,0 +1,82 @@
+#content {
+    width: 1265px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 30px;
+}
+
+#tech {
+    color: #404052;
+    width: 3.7%;
+    border-bottom: 3px solid #BB1919;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+
+#content a {
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #5A71BF;
+    text-decoration: underline;
+}
+
+#para {
+    color: #5A5A5A;
+    font-size: 90%;
+    width: 500px;
+    letter-spacing: 1px;
+}
+
+#clock {
+    float: left;
+}
+
+#ending {
+    margin: 0 2px;
+    float: left;
+    color: #5A5A5A;
+    font-size: 90%;
+}
+
+#link a {
+    float: left;
+    margin-left: 3px;
+    color: #5A5A5A;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+#link a:hover {
+    color: #5A71BF;
+    font-size: 90%;
+    text-decoration: underline;
+}
+
+.newscontent {
+    display: flex;
+}
+
+.newspart1 {
+    width: 50%;
+}
+
+.newspart2 {
+    width: 50%;
+}
+
+@media screen and (max-width: 740px) {
+    .newscontent {
+        flex-direction: column;
+    }
+    .newspart1,
+    .newspart2 {
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+    .clone {
+        height: 150vh;
+    }
+}
